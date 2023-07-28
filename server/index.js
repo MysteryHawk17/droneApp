@@ -23,7 +23,7 @@ app.use("/api/history", historyRoutes);
 app.use("/api/user", userRoutes);
 //server test route
 app.get("/", (req, res) => {
-    res.status(200).json({ message: "Recruitifie server is running" })
+    res.status(200).json({ message: "Drone server is running" })
 
 })
 //connection to database
